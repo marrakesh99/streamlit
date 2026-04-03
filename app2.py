@@ -17,68 +17,39 @@ FILE_PATH = "Dashboard mejores universidades El Universal 2026.csv"
 # =========================
 # Estilos
 # =========================
+
 st.markdown(
     """
     <style>
     .block-container {
-        padding-top: 1.2rem;
+        padding-top: 5rem;
         padding-bottom: 2rem;
         max-width: 1400px;
     }
 
     .main-title {
-        font-size: 2.2rem;
+        font-size: 3.2rem;
         font-weight: 800;
+        letter-spacing: -0.02em;
         line-height: 1.05;
-        margin-bottom: 0.25rem;
-        color: #172033;
+        margin-top: 0.5rem;
+        margin-bottom: 0.4rem;
+        color: #f8fafc;
     }
 
     .main-subtitle {
-        color: #5f6b85;
-        font-size: 1rem;
-        margin-bottom: 1.25rem;
+        font-size: 1.05rem;
+        color: #94a3b8;
+        margin-bottom: 1.5rem;
     }
 
-    .section-title {
-        font-size: 1.15rem;
+    .badge {
+        display: inline-block;
+        font-size: 0.7rem;
         font-weight: 700;
-        color: #172033;
-        margin-bottom: 0.4rem;
-    }
-
-    div[data-testid="stMetric"] {
-        background: #ffffff;
-        border: 1px solid #e8ebf3;
-        border-radius: 18px;
-        padding: 0.9rem 1rem;
-        box-shadow: 0 6px 20px rgba(23, 32, 51, 0.04);
-    }
-
-    div[data-testid="stMetricLabel"] {
-        color: #5f6b85;
-        font-weight: 600;
-    }
-
-    div[data-testid="stMetricValue"] {
-        color: #172033;
-        font-weight: 800;
-    }
-
-    .card {
-        background: #ffffff;
-        border: 1px solid #e8ebf3;
-        border-radius: 22px;
-        padding: 1rem 1rem 0.5rem 1rem;
-        box-shadow: 0 8px 24px rgba(23, 32, 51, 0.05);
-        margin-bottom: 1rem;
-    }
-
-    .small-note {
-        color: #6b7280;
-        font-size: 0.85rem;
-        margin-top: -0.25rem;
-        margin-bottom: 0.75rem;
+        letter-spacing: 0.08em;
+        color: #60a5fa;
+        margin-bottom: 0.3rem;
     }
     </style>
     """,
